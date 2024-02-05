@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .player_wrap {
+            width:100%;
+            max-width:1200px;
+            margin:5% auto;
+        }
+        .player_wrap>p{
+            font-weight:900;
+            font-size:1.5em;
+        }
+        .card_wrap{
+            display:flex;
+            justify-content: space-between;
+
+
+        }
+        .card_wrap>div{
+            background:silver;
+            text-align:center;
+            font-size:2.5em;
+            padding:2%;
+            width:10%;
+        }
+        .red{color:red;}
+        .black{color:black;}
+    </style>
 </head>
 <body>
-$END$
+<div class="player_wrap">
+    <p>Player 1</p>
+    <div class="card_wrap">
+        <div class="black"><span>2</span><span> &#9827</span></div>
+        <div class="red"><span>9</span><span> &#9829;</span></div>
+        <div class="red"><span>6</span><span> &#9829;</span></div>
+        <div class="red"><span>A</span><span> &#9830;</span></div>
+        <div class="black"><span>Q</span><span> &#9824;</span></div>
+        <div class="black"><span>J</span><span> &#9827;</span></div>
+    </div>
+</div>
+<div class="player_wrap">
+    <p>Player 2</p>
+    <div class="card_wrap">
+        <div class="red"><span>3</span><span> &#9829;</span></div>
+        <div class="black"><span>A</span><span> &#9827;</span></div>
+        <div class="black"><span>10</span><span> &#9829;</span></div>
+        <div class="red"><span>K</span><span> &#9830;</span></div>
+        <div class="black"><span>8</span><span> &#9824;</span></div>
+        <div class="red"><span>3</span><span> &#9829;</span></div>
+    </div>
+</div>
 </body>
 </html>
